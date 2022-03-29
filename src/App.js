@@ -11,7 +11,7 @@ function App(props) {
 			<a href="#"><p id="email">duasdesignhouse.com</p></a>
       <br/>
     <h2>About Me</h2>
-    <p id="name">
+    <p>
 
     Hello from <strong id="name">{props.name}</strong> a student of PIAIC batch 35. 
   <br/>
