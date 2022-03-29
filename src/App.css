@@ -63,19 +63,13 @@ h2 {
 #name {
 	position: relative;
 	top: -10px;
-	font-color:
+	color: #111111;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 }
+
 div{
 	border-radius:5px;
-}
-#name {
-	position: relative;
-	top: -10px;
-	font-color:
-	border-top-left-radius: 15px;
-	border-top-right-radius: 15px;
 }
 
 #email{
