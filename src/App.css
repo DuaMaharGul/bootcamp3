@@ -40,11 +40,11 @@
 
 
 html{
-	background-color:#0b9c6c
+	background-color:#0ec588;
 }
 
 body {
-	background-color:#e9e4ff
+	background-color:#ffffff
 	}
 
 h1 {
@@ -62,13 +62,13 @@ h2 {
 	text-align: center;
 	padding-top: 25px;
 	padding-bottom: 25px;
-	color: #252525;
+	color: #1847df;
 }
 
 #name {
 	position: relative;
 	top: -10px;
-	color: #252525;
+	color: rgb(152, 19, 214);
   text-align: center;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
@@ -76,20 +76,21 @@ h2 {
 
 
 #email{
-	float:right;
 	text-align: center;
-	padding-top:5px;
+  
 	font-size:16px;
 	font-family: Verdana, sans-serif;
 	color:#252525;
 }
 h1:hover
 {
-	background-color:#0ec588;
+	background-color:#630ec5;
+  color:#ffffff;
 }
 h2:hover
 {
-	background-color:#0ec588;
+	background-color:#630ec5;
+  color:#ffffff;
 }
 div{
   text-align: center;

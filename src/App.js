@@ -5,7 +5,7 @@ import './App.css';
 function App(props) {
   return <div id="header">
     <h1 class="hover">Welcome to My Website</h1>
-			<p id="name">Dua Mahar Gul</p>
+			<p id="name"><b><em>Dua Mahar Gul</em></b></p>
 			<a href="#"><p id="email">duamahargul@gmail.com</p></a>
 			<p>or</p>
 			<a href="#"><p id="email">duasdesignhouse.com</p></a>
@@ -13,7 +13,7 @@ function App(props) {
     <h2>About Me</h2>
     <p id="name">
 
-    Hello from <strong>{props.name}</strong> a student of PIAIC batch 35. 
+    Hello from <strong id="name">{props.name}</strong> a student of PIAIC batch 35. 
   <br/>
     I'm {props.age + 2} years old. Some of my favorite things to do are designing, 
 		listening to music, and watching anime.These are activities that I enjoy immensely and indulge in daily.
