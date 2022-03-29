@@ -12,7 +12,9 @@ ReactDOM.render(
 */
 
 ReactDOM.render(
-   <div><App name="Dua MG"/></div>,
+   <div>
+     <App name="Dua MG" age={24}/>
+  </div>,
   document.getElementById('root')
 );
 

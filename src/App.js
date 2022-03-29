@@ -3,7 +3,34 @@ import './App.css';
 
 // all properties we pass in ReactDOM will b available in 1st arrg of func
 function App(props) {
-  return <div>Hello from Dua MG {props.name}</div>
+  return <div>
+    <h1>Welcome to My Website</h1>
+			<p>Contact</p>
+			<a href="#"><p>duamahargul@gmail.com</p></a>
+			<p>or</p>
+			<a href="#"><p>duasdesignhouse.com</p></a>
+      <br/>
+    <h2>About Me</h2>
+    Hello from <strong>{props.name}</strong> a student of PIAIC batch 35. 
+  <br/>
+    I'm {props.age + 2} years old. Some of my favorite things to do are designing, 
+		listening to music, and watching anime.These are activities that I enjoy immensely and indulge in daily.
+    <br/>
+    
+    <h2>Favorite Anime Shows</h2>
+			<ul>
+				<li>One Piece</li>
+				<li>Bleach</li>
+				<li>Naruto</li>
+				<li>Haikyuu</li>
+				<li>My Hero Academia</li>
+			</ul>
+  </div>
 }
+
+// for short codes like single line
+/*
+const App = (props) => <div> Hello from {props.name} a student of PIAIC </div>;
+*/
 
 export default App;
