@@ -37,6 +37,8 @@
   }
 }
 
+
+
 html{
 	background-color:#0b9c6c
 }
@@ -44,6 +46,7 @@ html{
 body {
 	background-color:#e9e4ff
 	}
+
 h1 {
 	font-family: Verdana;
 	font-weight: bold;
@@ -52,6 +55,7 @@ h1 {
 	padding-bottom: 25px;
 	color: #252525;
 }
+
 h2 {
 	font-family: Verdana;
 	font-weight: bold;
@@ -60,21 +64,20 @@ h2 {
 	padding-bottom: 25px;
 	color: #252525;
 }
+
 #name {
 	position: relative;
 	top: -10px;
 	color: #252525;
+  margin-right:2px;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 }
 
-div{
-	border-radius:5px;
-}
 
 #email{
 	float:right;
-	margin-right:5px;
+	margin-right:2px;
 	padding-top:5px;
 	font-size:16px;
 	font-family: Verdana, sans-serif;
@@ -89,5 +92,6 @@ h2:hover
 	background-color:#0ec588;
 }
 div{
+  margin-right:2px;
 	border-radius:3px dotted rgb(152, 19, 214);
 }

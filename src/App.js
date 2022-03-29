@@ -11,12 +11,16 @@ function App(props) {
 			<a href="#"><p id="email">duasdesignhouse.com</p></a>
       <br/>
     <h2>About Me</h2>
+    <p id="name">
+
     Hello from <strong>{props.name}</strong> a student of PIAIC batch 35. 
   <br/>
     I'm {props.age + 2} years old. Some of my favorite things to do are designing, 
 		listening to music, and watching anime.These are activities that I enjoy immensely and indulge in daily.
     <br/>
     
+    </p>
+
     <h2>Favorite Anime Shows</h2>
 			<ul>
 				<li>One Piece</li>
