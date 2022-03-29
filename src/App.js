@@ -3,12 +3,12 @@ import './App.css';
 
 // all properties we pass in ReactDOM will b available in 1st arrg of func
 function App(props) {
-  return <div>
-    <h1>Welcome to My Website</h1>
-			<p>Contact</p>
-			<a href="#"><p>duamahargul@gmail.com</p></a>
+  return <div id="header">
+    <h1 class="hover">Welcome to My Website</h1>
+			<p id="name">Dua Mahar Gul</p>
+			<a href="#"><p id="email">duamahargul@gmail.com</p></a>
 			<p>or</p>
-			<a href="#"><p>duasdesignhouse.com</p></a>
+			<a href="#"><p id="email">duasdesignhouse.com</p></a>
       <br/>
     <h2>About Me</h2>
     Hello from <strong>{props.name}</strong> a student of PIAIC batch 35. 
