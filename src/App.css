@@ -38,11 +38,11 @@
 }
 
 html{
-	background-color:#102372
+	background-color:#0b9c6c
 }
 
 body {
-	background-color:#02AB21
+	background-color:#e9e4ff
 	}
 h1 {
 	font-family: Verdana;
@@ -50,7 +50,7 @@ h1 {
 	text-align: center;
 	padding-top: 25px;
 	padding-bottom: 25px;
-	color: #acd1b2;
+	color: #252525;
 }
 h2 {
 	font-family: Verdana;
@@ -58,12 +58,12 @@ h2 {
 	text-align: center;
 	padding-top: 25px;
 	padding-bottom: 25px;
-	color: #acd1b2;
+	color: #252525;
 }
 #name {
 	position: relative;
 	top: -10px;
-	color: #111111;
+	color: #252525;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 }
@@ -78,16 +78,16 @@ div{
 	padding-top:5px;
 	font-size:16px;
 	font-family: Verdana, sans-serif;
-	color:#ffffff;
+	color:#252525;
 }
 h1:hover
 {
-	background-color:#102372;
+	background-color:#0ec588;
 }
 h2:hover
 {
-	background-color:#102372;
+	background-color:#0ec588;
 }
 div{
-	border-radius:3px dotted blue;
+	border-radius:3px dotted rgb(152, 19, 214);
 }
